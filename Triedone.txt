@@ -1,0 +1,42 @@
+Given a String "This is a white horse" can you rpint the number of characters in the string like 
+T - 2
+h - 3
+i - 2
+so on and so forth 
+
+Assumptions 
+a) Ignore case 
+b) Ignore space 
+c) Ignore order 
+
+public static void main(String[] args){
+//String given = "This is a white horse"; "Fox jumps over the fence"
+
+String value1="abcdefghijklmnopqrstuvwxyz";
+String value2="This is a white horse";
+int count=0;
+HashMap<String><String> map = new HashMap<String><String>();
+map.contains("value1", "value2");
+
+List<Iterator> iterator =  iterator.iterator.hasNext();
+while(iterator.Next()){
+    
+}
+c
+
+
+
+
+------------------------------------------------
+Char[] charArray =given.toCharArray[];
+int length =given.length();
+int count=0;
+given =given.toLowerCase();
+  given = given.split(" ");
+for(int i=0; i<charArray.length(); i++){
+ // if(given.charAt[i]=='T'&& given.charAt[i]=='h'&& given.charAt[i]=='h'&& given.charAt[i]=='h')// this is hard coding , its like you know the values 
+    if(given.charAt[i]==value)
+    {
+        count++;
+    }
+}

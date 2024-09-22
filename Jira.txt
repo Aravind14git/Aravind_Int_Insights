@@ -1,0 +1,67 @@
+EPIC:
+Big story with multiple substories called epic eg: ponniyan selvan
+Epic is a greater functionality which can be subdivided into further
+granular units to be actually implemented.
+
+Story:
+An user story is an agile development term which describes a
+product feature from end user perspective
+User stories help product managers clearly define softwarerequirements
+so the development team understands the desired outcome of 
+the new functionality
+
+How to write a story;
+who, what , why of the feature in a simple and concise way 
+
+As a Youtuber(type of user)
+I want to  see the notifications(perform some task)
+so that I can reply to them.(achieve some goals)
+
+Acceptance Criteria:
+After completion of a story or a task, there has to be a 
+measure to find out whether the task is actually completed 
+or not.
+
+Acceptance criteria determines the completion of a task 
+by having a BDD style feature description.
+
+How to write a Acceptance criteria:
+Should have  precondition(Given) actions to be performed(when) and the
+consequence of the action(Then)
+
+Given than[some context]
+when[perform some task]
+then[achieve some goal]
+Eg:
+Given that Youtuber has internet
+When somone comments on a video
+Then yt should see a notification for the comment
+
+Product Backlog:
+It is a set of well defined requirements/stories
+Created by the product owner
+It is the first source that the team wil act upon to give life
+to the vision of the customer
+
+Sprint backlog:
+It is a set of well defined requirements/stories which the Dev
+committed to deliver within the next 2 or 3 weeks.
+Derived from the product backlog after sprint planning.
+
+Story Points:
+Story point represents the efforts required to  put a PBI(Product
+Backlog item) live
+
+Mockup:
+A mockup is a visual way of representing a product
+
+2. Project template:
+.
+Epic- Before creating to check product perspective
+
+3.Creating the Epic and User story mapping.
+Getting the requirements
+
+
+
+

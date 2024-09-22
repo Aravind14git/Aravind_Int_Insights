@@ -1,0 +1,101 @@
+Java:
+
+Static keyword:
+
+string:
+Sequence of char
+java.lang.String class - package
+
+String name=" agni ";
+
+name.valueOf(number);
+
+List<String> arrayList = new ArrayList<String>();
+arrayList.add("BMW");
+arrayList.add("jaguar");
+arrayList.get(0);
+
+ListIterator<String> list_Iterator = arrayList.listIterator();
+while(list_Iterator.hasNext()){
+Sysout(list_Iterator.next());
+}
+
+
+Selenium:
+Implicit
+driver.navigate.to("");
+drive.manage().timeouts.implicitlywait(30, TimeUnit.SECONDS);
+by default wait - 0 , SECONDS
+
+WebDriverWait  wait = new WebDriverWait(driver, 20);
+wait.until(ExpectedConditions.elementToBeClickable(
+elementToBeClickable()
+
+List<WebElement> elements = driver.findElements(By.xpath(""));
+
+WebElement fromElemtn =elements.get(6);
+Actions actions = new Actions(driver);
+actions.clicAndHold(fromElem)
+actions.moveToElement(toE);
+actions.release(toEklem);
+actions.build().peform();
+
+rows: tr[n]
+columnn: th[n]
+if its count
+column.size(); - size methods
+count, table
+
+File fileLocation = new File("");
+File[] totalFiles=  fileLocation.lsitFiles();
+if(file.getName().equals("dw")){
+syso
+
+actions.keyDown(Keys.Control).click(Selectable.get(0)).
+build
+static webElemet q;
+PageFactory.initElements(driver, ActiveEleEx.class);
+q.sendKeys("Tri");
+
+JavascriptExecutor executor = (JavascriptExecutor) driver;
+executor.executeScript("location.reload(0)");
+bottom of th e page
+executor.executeScript("window.scrollTo(0, document.body.scrollHeight)", "");
+executor.executeScript("window.scroll(0,0)", "");
+
+Robot robot = new Robot():
+robot.keyPress(keyEvent.VK_PAGE_DOWN);
+robot.keyRelease(keyEvent.VK_PAGE_DOWN);
+Thread.sleep(3000);
+robot.keyPress(keyEvent.VK_PAGE_UP);
+
+Assert.assertEquals(true, false);
+Assert.fail();
+
+SoftAssert assert1 = new SoftAssert();
+assert1.fail();
+
+JavascriptExecutor executor = (JSE)driver:
+executor.executeScript("arguements[0].value='Riya'", searchBox);
+
+@Test(timeOut=3000,expectedExceptions=ArrayIndexOutOfBoundException.class)
+@Test(invocationCount =3)
+
+@Test(dependsOnMethods="parentPerm",alwaysRun=true)
+
+<groups>
+<run>
+<include name ="moteo"></include>
+<include name ="goog"></include>
+</run>
+
+@Test(groups={"moto"})
+public void test1()
+{
+}
+@Test(enabled = false)
+@Test(dependsOnMethods= "highScho")
+@Test(priority= 1)
+
+
+

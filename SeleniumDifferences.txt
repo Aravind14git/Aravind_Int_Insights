@@ -1,0 +1,21 @@
+
+The difference between Selenium IDE vs WebDriver is that 
+Selenium IDE is a browser plug-in designed for recording and playing back 
+tests. Selenium WebDriver is a code library of APIs for controlling browsers
+
+Selenium IDE does not assist object oriented programming.
+ The elements can be identified only with absolute xpath in Selenium IDE.
+ In case of a dynamic webpage, we may have to handle multiple navigations, 
+alerts, pop-ups and so on. All these cannot be handled with Selenium IDE
+
+In Selenium 3, testers often faced challenges with browser-specific 
+implementations, which could lead to inconsistent test results. 
+Selenium 4 addresses this issue by providing a more unified and predictable
+ testing experience across various browsers, thereby making cross-browser 
+testing more efficient and reliable
+
+latest version -4.21.0
+
+Selenium Grid is designed to facilitate parallel and distributed 
+testing across multiple machines and browsers simultaneously.
+

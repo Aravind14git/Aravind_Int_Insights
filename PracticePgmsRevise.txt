@@ -1,0 +1,131 @@
+String given ="agni";
+char[] character =given.toCharArray();
+
+List<Character> list = new ArrayList<Character>();
+for(Character char: list){
+list.add(char);
+}
+
+Collections.reverse(list);
+ListIterator iterator =list.listIterator();
+while(iterator.hasNext()){
+sysout(iterator.next());
+}
+
+----------------
+mysal, supSal
+temp= mysal;
+mysal=supsal;
+supsal=temp;
+
+first = first-second;
+second= first+second;
+first= second -first;
+--------------
+int given no= 0
+reverseNo=0;
+while(given!=0){
+reverseNo= reverseNo*10;
+reverseNo= reverseNo+givenNo%10;
+givenNo= givenNO/10;
+}
+
+---------------------------
+
+Integer givenArray[] ={2, 1, 3};
+
+public void usingArrays(){
+Arrays.sort(givenArray);
+Sysout(givenArray[0]);
+}
+public void findSmallest(){
+int smallest = Ineteger.MAX_VALUE;
+for(int i =0; i<givenArray.length;i++){
+if(givenArray[i]<smallest){
+smallest=givenArray[i];
+}
+Sysout(smallest)}
+public void usingCollections(){
+List<Integer> list= Arrays.asList(givenArray);
+Collections.sort(list);
+int smallest=list.get(0);
+Sysout(smallest);
+}
+----------------------
+String given  =" I like awe";
+String reversed= " ";
+
+String[] temp =given.split(" ");
+Sysout(temp.givenlength());//for ref lenght
+for(int i=temp.length()-1;i>=0;i--)
+{
+reversed= reversed+temp[i];
+}
+Sysout(Reversed);
+}
+
+---------------------------
+element present or not
+
+int[] array ={ 2, 1, 3};
+int numToFind= 3;
+boolean found;
+
+public void ElementPresent(){
+
+for( int num : array){
+if(num == numToFind){
+found = true;
+break;}
+}
+if(found)
+{
+Sysout(P);
+}
+else{Sysout(NP):}
+
+}
+----
+boolean found=
+Instream.of(array).anyMatch(element-> element == numToFind);
+if(found){
+syso(P);
+}
+else{Syso(NP);}
+-------------
+public st void{
+Scanner s = new Scanner(System.in);
+char givenChar =s.next().charAt(0);
+givenChar=  Character.toLowerCase(givenChar);
+int asciiValue=(int) givenChar;
+
+int position = ascii value - 96;
+Sysout(position);
+}
+
+-----------------------------
+Occurence of a character
+String input = agniprasat
+------------
+String given = 'a';
+given =given.toLowercase();
+given= given.replaceAll(" ", " ");
+String[] userArray=given.split("");
+String[] array2 ="abcdef...z".split("");
+
+HashSet<String> set1= new HashSet<String>(Arrays.asList(userArray));
+
+HashSet<String> set2= new HashSet<String>(Arrays.asList(array2));
+set2.removeAll(set1);
+Sysout(set2);
+
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,40 @@
+defect tracking tools used in mobile
+simulator vs emulator
+android and iOS  - pkge name
+critical bug used
+android devices vs
+
+HOW TO EXPLAIN SELENIUM AUTOMATION FRAMEWORK
+ 1. Programming language: Java
+2. Framework Type: Data driven framework driven by using Page Object Model
+3. POM: 
+As per the Page Object Model, we have maintained a class for every web page. 
+Each web page has a separate class and that class holds the functionality 
+and members of that web page. Separate classes for every individual test.
+4. Packages: We have separate packages for Pages and Tests. All the web page related classes come under the Pages package and all the tests related classes come under Tests package. For example, Payment Page and Login Page have separate classes to store element locators.
+5. Properties file: This file (config.properties) stores the information that remains static throughout the framework such as browser-specific information, application URL, development, testing URL screenshots path, security questions and answers, username, passwc-ing, development, testing URL, etc.
+  
+
+The above screenshot illustrates a standardized maven project. As per the above maven project, all the tests are kept in the 'src/test/java'and remaining files (such as config.properties, element locators (POM classes files, test data, etc.,) kept under 'src/main/java'.
+
+5.TestNG: Using TestNG for Assertions, Grouping, and Parallel execution.
+
+6. Screenshots: Screenshots will be captured and stored in a separate folder and also the screenshots of failed test cases will be added to the extent reports.
+
+7. Maven: Using Maven for build, execution, and dependency purpose. Integrating the TestNG dependency in the POM.xml file and running this POM.xml file using Jenkins.
+
+8. Version Control Tool: We use Git as a repository to store our test scripts.
+9. Jenkins: By using Jenkins CI (Continuous Integration) Tool, we execute test cases on a daily basis and also for nightly execution based on the schedule. Test Results will be sent to the peers using Jenkins.
+
+10. Installer Batch Files: In case of desktop-based applications installation you would be keeping PowerShell batch files.
+
+11. src/test/resources: AutoIT Scripts, Sikuli images, licenses to make your application under test up & running, etc files kept
+
+12. Test Base Class: Test Base class (TestBase.java) deals with all the common functions used by all the pages. This class is responsible for loading the configurations from properties files, Initializing the WebDriver, Implicit Waits, 
+13.Reports. Extends reports
+
+Team:
+check through logs
+brazil logs- dtk
+with the help of log identiy/define what type of failure script /infra issue(service)
+

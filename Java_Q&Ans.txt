@@ -1,0 +1,147 @@
+Pointers are not used:
+They are unsafe
+Increases the complexity of program
+JVM is responsible for implicit memory allocation then pointer not required
+
+whata is JIT compiler in java:
+JIT compiler converts bytes code into machine codes with the help of interpreter
+
+javasource code--> jdk envi(javac .exe)--> bytecode-->Interpreter+JIT compiler(JRE enviro)
+--> machine language
+
+Marker interface?
+An empty interface called MI,have no data member and member function
+eg serializable, cloneable
+
+can you override a private or static method in java?
+you cannot override private & static method in java
+Private methods cannot override since its not access in subclasses
+static method cannot override in child class
+
+finally always execute in java?
+no, system crashes, sytem.exit () function - finally dont execute
+
+what method does the object class have?
+java.lang.Object - parent class of all the methoeds
+
+how can you make a class Immutable?
+declare the class as final so it cant b extended
+make all the fields private so direct access is not allowed
+Make mutable fields final so the value can be assigned once
+
+Singleton class in java& how can we make?
+It is a class one instanfe can be created at any give time, in one JVM
+
+Java does not support multiple inheritance and for that only we have interface
+
+Serialization:
+Serialization it is a mechanis of writinng code, converts byte code to object code
+Deserialization is the opposite of serialization
+
+Final, finally both are keywords.Finalize is a method
+fnal used to define constants
+finally is used in exceptions
+finalize used in garbage collection, before garbage collection finalize
+
+Springboot(It is a framework) is a communication b/n client and server, client request to server
+and server respond to the client
+
+Collection framework is used to store the data
+It has class Array List, Hast Set and Maps
+-----
+String:
+String is a java class defined in java.lang.package
+string class implements - comparable, charSequence, serializable interfaces
+-----------
+String objection creatin
+using string literal
+String constant pool is special memory in the heap area, it is allocated to
+store string objects created using literal
+String s="will";
+usign string new  keyword
+String s = new String("will");
+---------------
+Strings are thread safe in java. Since cant modify these are thread safe.
+Even multiple thread try to access no error will observe
+-------
+String ==,equals()
+== operators compares the same memory location
+equals() method for content comparison
+
+equals() method only we should prefer in testing/coding
+------------
+String intern()
+Method intern() creates an exact copy of the string object in the heap memory
+and store it in string constant pool
+String s1="abc";
+String s2= new String("abc");
+String s3= s2.intern();
+Sysout(s1==s3);
+o/p= true
+------------------------------------------
+string to char array
+
+string str = "Test";
+char[] chars = str.toCharArray();
+Sysout(chars.length);
+char c =str.charAt(2);
+Sysout(c);
+}
+---------------
+String to bytes
+
+String str ="suresh";
+byte[] bytes=str.getBytes();
+Sysout(Arrays.toString(bytes));
+o/p: [ 83, 117,...]
+-----------------
+Bytes to string
+
+byte[] byte1= { 83, 117, 33, 54};
+String str = new String(byte1);
+Sysout(str);
+
+o/p: suresh
+-------------------
+super class of all class
+--> java.lang.Object class is the super class of all class
+--------------
+
+String s1= "abc";/ this will go to string pool
+String s2= new String("abc");// this will be heap memory
+s2.intern();
+sysout(s1==s2);
+
+O/p; false
+->intern() method will return string object reference from string
+pool, so if we assign s2= s2.intern();  then will be O/P true
+
+------
+String s1= new String("abc");
+String s2= new String("abc");
+sysout(s1==s2);
+
+O/P: false
+Both are having different heap memroy location
+----
+Yes we can overload main method
+but look for public static void main(String[] args)
+---------------
+Final Keyword
+
+Final keyword is used in class to make sure no other class can extend it
+Final  keyword with methods to make sure child class cant override it
+Final keyword can be used in variable to make sure to assign only once
+----------------
+Byte code(can execute in any platform) and JVM hence its platform independent
+
+count sum o
+f digits, count of digits, even and odd,sum of eleme
+
+
+scrolling the slide from 1 end to another end
+
+Web service is used for REST, SOAP, and XML-RPC for communication, while API is used for any style of communication. 
+Web service supports only HTTP protocol, whereas API supports HTTP/HTTPS protocol.
+ Web service supports XML, while API supports XML and JSON
+

@@ -1,0 +1,281 @@
+driver.findElement(By.name("fere")).sendKeys("agn"+Keys.ENTER);
+driver.findElement(By.linkText("dfer dfdf")).click();
+driver.findElement(By.name("dere")).getAttribute("value");
+
+Button
+positionto take
+
+WebElement getpostition= driver.findElement(By.id(" DFD"));
+Point xypoint = getpostition.getLocation();
+int xvlaue = xypoint.getX();
+int yValue =xypoint.getY();
+sysout("Xvalue is "+ xvlaue+ "Y value is"+yValue);
+
+String color = colorButton.getCssValue("backcolor");
+
+sizeButton.getSize().getHeight();
+
+WebElement dropDown = driver.findElement(By.id("df));
+Select select = new Select(dropDown);
+select.selectByIndex(3);
+select.selectByValue("2")
+
+List<WebElement> listOfOptions =select.getOptions();
+int size =listOfOptions.size();
+
+boolean status1 = enabledBox.isEnabled();
+sysout(status1);- for text 
+boolean uncheck = uncheck.isSelected();
+sysout(uncheck);- for radiobuttons 
+
+
+Window handling:
+3 lines of code
+
+String oldWindow = 
+driver.getWindowHandle();
+WebElement first1 = driver.findElement(By.id());
+first1.click();
+Set<String> handles =driver.getWindowHandles();
+for(String newWindow : handles)
+{
+driver.switchTo().handles(newWindow);
+}
+
+driver.switchTo().frame(0);
+driver.switchTo().defaultContent();
+
+
+Actions actions = new Actions(driver);
+actions.clickAndHold(From).moveToElement(To.
+release(To).build().perform();
+actions.dragAndDrop(From, To).build().perform();
+
+Actions actions = new Actions(driver);
+actions.keyDown(Keys.CONTROL)
+.click(selectable.get(0))
+.click(selectable.get(1))
+.build().perform();
+
+actions.clickAndHold(selectable.get(0));
+actions.clickAndHold(selectable.get(1));
+
+File fileLocation = new File("locatin\\exe");
+File[] files = fileLocation.listFiles();
+
+for(File file : files)
+{
+if (file.getName().equals.("dow")){
+Sysout(file);
+break;
+}
+}
+
+Sring file ="dcc\\scc\\c";
+StringSelection selection = new StringSelection(file);
+Toolkit.getDefaultToolkit().getSystemClipboard().setContents(selection, null);
+Robot robot = new Robot();
+robot.keyPress(keyEvent.VK_CONTROL);
+robot.keyPress(keyEvent.VK_V);
+robot.keyRelease(keyEvent.VK_V);
+robot.keyRelease(keyEvent.VK_CONTROL);
+robot.keyPress(keyEvent.VK_ENTER);
+;robot.keyRelease(keyEvent.VK_ENTER)
+
+
+Selenium
+driver.navigate().to("http://www.googel");
+driver.navigate().back();
+driver.navigate().forward();
+driver.navigate().refresh();
+
+refresh:
+driver.get(driver.getCurrentUrl());
+JavascriptExecutor executor= (JavascriptExecutor)driver;
+executor.executeScript("location.reload()");//history.go(0);
+Robot robot = new Robot();
+robot.keyPress(keyEvent.VK_F5);
+
+maximize:
+driver.manage().window().maximize();
+
+Dimension dimension = new Dimension(width, height);
+driver.manage().window().setSie(dimension);
+
+ChromeOptions chromeOptions = new ChromeOptions();
+chromeOptions.addArguments("--start-maximized");
+
+enter key:
+sendKeys("tri \n");
+searcBox.submit();
+
+activeElement:
+static WebElement q;
+public static void main(String args[])
+{
+
+driver.switchTo().activeElement().sendKeys();
+
+PageFactory.initElements(driver, ActiveElementExample.class);
+q.sendKeys(" ");
+
+Scroll:
+//scrol to some position
+JavascriptExecutor executor = (JavascriptExecutor)driver;
+executor.executeScript("window.scroll(0,450)","");
+Thread.sleep(300);
+executor.executeScript("window.scroll(0,-450)","");
+
+//Bottom of the page
+executor.executeScript("window.scrollTo(0, document.body.scrollHeight)", "");
+Thread.sleep(3000);
+executor.executeScript("window.scroll(0,0)","");
+
+//some position:
+WebElement link = driver.findElement(By.linkText("dfd"));
+executor.executeScript("arguments[0].scrollIntoView(true);", link);
+
+Robot robot = new Robot();
+robot.keyPress(keyEvent.VK_PAGE_DOWN);
+robot.keyRelease(keyEvent.VK_PAGE_DOWN);
+
+underline:
+String before =tamil.getCssValue("text-Decoration");
+
+Assert vs verfiy:
+/hardAssertion
+Assert.assertEquals(true, false);
+Assert.fail();
+/SiftAssetion
+SoftAssert assert1 = new SoftAssert();
+assert1.fail();
+
+// withoud send Keys:
+executor.executeScript("arguments[0].value='reaz'",searcBox);
+
+Handle exceptions in TestNG:
+@Test(timeOuts=2000,expectedExceptions=ArrayIndexOutOfBoundException.class)
+public void test() throws InterruptedExceptin(){
+Thread.sleep(3000);
+Sysout();
+
+dependsOnMethods:
+@Test(dependsOnMethods="ParentPermission", alwaysRun=true)
+public void child(){
+Sysout
+
+
+int day=4
+switch(day)
+{
+case 1: 
+Sysout("mon");
+break;
+case 2:
+Sysout();
+break;
+default;
+sysout(brekdjkef);
+
+
+String name="Aravindkumar";
+int name =3;
+Sysout(name.charAt(1));
+Sysout(name.equals("aru"));
+name.equalsIgnoreCase("agg"));
+name.isEmpty()
+name.contains("A"));//returns true or false
+name.substring(1)
+name.substring(1,3);
+name.concat("pr")
+name.replace("g","G");
+name.indexOf(3);
+name.indexOf("i","3");
+String.valueOf(no);
+String join ="Learn automation onlne";
+
+
+name.reverse();
+
+
+List<String> arrayList = new ArrayList<String>;
+arrayList.add("boom");
+arrayList.add("boom");
+Sysout(arrayList);
+arrayList.get(0);
+arrayList.indexOf("boom");
+arrayList.lastIndexOf("boom");
+
+List<String> anotherList = new ArrayList<String>;
+anotherList.addAll(ArrayList);
+Sysout(anotherList);
+anotherList.clear();
+anotherList.remove(0);
+anotherList.set(0, "reaz");
+arrayList.add(null);
+Sysout(arrayList.isEmpty());
+
+for(i =0; i<arrayList.size(); i++)
+{
+Sysout(arrayList.get(i));
+}}
+
+ListIterator<String> iterator = arrayList.listIterator();
+while(iterator.hasNext())
+{
+Sysout(iterator.next());
+}}
+
+
+ListIterator<String> iterator = arrayList.listIterator();
+while(iterator.hasPrevious)
+{
+Sysout(iterator.previous());
+}}
+
+LinkedList<Integer> linkedList = new LinkedList<Integer>();
+
+linkedList.add(2);
+linkedList.add(3);
+Sysout(linkedList);
+
+linkedList.addFirst(1);
+linkedList.remoeFirst();
+linkedList.poll();
+removeLast();
+linkedList.pollLast();
+
+HashSet<String> hashSet = new HashSet<String>();
+
+
+TreeSet<Integer> treeSet = new TreeSet<Integer>();
+treeSet.first();
+last()
+treeSet.headSet();
+treeSet.tailSet();
+comparator returns null if arranged in default sorting orderJ
+
+JavascriptExecutor js = (JavascriptExecutor) driver;
+js.executeScript("arguments[0].scrollIntoView()", scrolRi);
+
+
+JavascriptExecutor js = (JavascriptExecutor)driver;
+js.executeScript("alert('Js exe');");
+
+
+
+bottom of the page:
+window.scrollTo(0, document.body.scrollHeight);
+top of the page:
+window.scrollTo(0,0);
+particular position
+
+ChromeOptions chromeOptions = new ChromeOptions();
+chromeOptions.addArguments("--start-maximized");
+
+@Test(priority=0)
+@Test(enabled=false)
+@Test(dependsOnMethods="parentPer")
+@Test(timeOuts=2000,expectedExceptions=ArrayIndexOutOfBoundException.class)
+
+  

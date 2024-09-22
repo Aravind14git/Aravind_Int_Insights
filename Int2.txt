@@ -1,0 +1,20 @@
+A simulator creates an environment that mimics the behaviors, variables, 
+and configurations in the production environment of an iOS app. 
+An emulator mimics all the hardware and software features for the Android
+ app production environment of a real device
+
+ADB - andorid debug bridge
+apk - android application pakcage kit
+iOS package appstore - IPA
+
+JavaScript is a scripting language used to develop web pages. 
+Developed in Netscape, JS allows developers to create a dynamic and 
+interactive web page to interact with visitors and execute complex actions. 
+It also enables users to load content into a document without reloading
+ the entire page.
+
+Charles proxy tool is web traffic debugging proxy.
+ It helps in debugging/analyzing/testing of web and mobile application 
+traffic logs. It has easily understandable UI elements. 
+While configuring, the root certificate installation plays an important 
+role

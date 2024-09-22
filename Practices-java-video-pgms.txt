@@ -1,0 +1,227 @@
+Reverse a string
+String given= "agni"
+StringBuffer buffer = new StringBuffer();
+buffer.append(given);
+System.out.println(buffer.reverse());
+
+Using char array:
+String given= "agni"
+ char[] characterArray =given.toCharArray();
+ String reversed="";
+ 
+ for(int i= characterArray.length-1;i>=0;i--)
+ {
+ String reversed= reversed+characterArray[i];
+ }
+ System.out.println(reversed);
+ }
+ 
+ Using collections:
+String given= "agni"
+ char characterArray =given.toCharArray();
+ List<character> list = new ArrayList<character>();
+ for(Character ch : list){
+ list.add(ch);
+ }
+ Collections.reverse(list);
+ ListIterator iterator = list.listIterator;
+ while(iterator.hasNext()){
+ System.out.println(iterator.next());
+ }
+}
+-----------------------------------
+Swap two numbers
+int x, y;
+temp =x;
+x=y;
+y = temp;
+
+first = first - second;
+second= first+ second;
+first = second - first;
+---------------------------------------
+Reverse a number
+
+public void using1{
+int givenNo= 123;
+int reversedNo=0;
+
+System.out.println("Enter the no:");
+Scanner sc = new Scanner(System.in);
+givenNo=sc.nextInt();
+
+while(givenNo! = 0)
+{
+reversedNo = reversedNo*10;
+reversedNo = reversedNo+givenNo%10;
+givenNo = givenNo/10;
+}
+System.out.println(reversedNo);
+}
+-----------------------------------------
+Print triangle patterns
+
+public void using1
+{
+Scanner sc = new Scanner(System.in);
+System.out.println("enter the no");
+int noOfLines= sc.nextInt();
+int row, column =0;
+for(row =0;row<noOfLines;row++)
+{
+for(column =0; column<=row;column++){
+System.out.print("*");
+}
+System.out.println();
+}
+--
+public void usingNopattern
+{
+Scanner sc = new Scanner(System.in);
+System.out.println("enter the rows");
+int noOfLines/limit;
+int startingNo=1;
+int noOfLines= sc.nextInt();
+int row, column =0;
+for(row =0;row<noOfLines;row++)
+{
+for(column =0; column<=row;column++){
+System.out.print(startingNo+ " ");
+startingNo = startingNo+1;
+}
+System.out.println();
+}
+--------------------------------
+LengthOfString:
+String given = "Agniroy";
+System.out.println(given.length());
+
+ char[] charArray=  given.toCharArray();
+ 
+ int length =0;
+ for(char c : charArray){
+ length++;
+ }
+ System.out.println(length);
+ }
+--------------------------------------
+Find smallest no in array
+
+Integer givenArray[] = { 2, 2,1, 3, 4};
+public void usingSmall(){
+int smallest = Integer.MAX_VALUE;
+for(int i=0; i<givenArray.length; i++)
+{
+if(givenArray[i]< smallest)
+{
+smallest= givenArray[i];
+}System.out.println(smallest);
+}
+
+public void usingArrays(){
+Arrays.sort(givenArray);
+System.out.print(givenArray[0]);
+}
+
+public void usingCollections(){
+ List<Integer> list =  Arrays.asList(givenArray);
+ Collections.sort(list);
+ int smallest =list.get(0);
+ System.out.println(smallest);
+------------------------------
+Reverse words in sentence
+
+public void reverseWords(){
+String given = " I like agni";
+String reversed =" ";
+
+
+//Changing the string into array
+String[] temp  = given.split("");
+//given.split(" "); space denotes the sentence count
+for( int i = temp.length-1; i>=0; i--)
+{
+reversed = reversed+temp[i];
+}
+System.out.println(reversed);
+}
+-------------------------------------
+Find an element present or not
+
+int givenArray[] ={1, 3, 2, 5, 7};
+int numberToFind =3;
+boolean found = false;
+
+public void presentOrNot(){
+for( int number : givenArray)
+{
+if(number== numberToFind){
+found=true;
+break;
+}
+}
+if(found){
+System.out.println("Number present");
+} else{
+System.out.println("Number not present");
+}
+}
+
+public void usingIntStream(){
+boolean found = IntStream.of(array).anyMatch(element->element==numberToFind);
+if(found)
+{
+System.out.println("Number present");
+} else{
+System.out.println("Number not present");
+}
+}
+-------------------------------------------------
+position of english alphabet
+public st void main(){
+To find position ASCII 97- a, 65- A
+
+Scanner scanner= new Scanner(system.in);
+system.out.println("Enter your no:");
+  char givenChar=  scanner.next.charAt(0);
+ givenChar=  Character.toLowerCase(givenChar);
+int asciiValue = (int)givenChar;
+System.out.println(asciiValue);
+
+ int position = asciiValue-96;
+ system.out.println(position);
+ }
+ }
+ -----------------------------------------
+ find occurence of a  character in string
+ 
+ public st void main(string[] args)
+ {
+ String input = "Ayogya";
+ char toFind ='a';
+ int occurence =0;
+  //Changing to same format lowercase
+  input = input.toLowerCase();
+  for(int i=0; i<input.length(); i++){
+  if(input.charAt(i)== toFind)
+  {
+  occurence= occurence+1;
+  }}
+  System.out.println(occurence);
+  }
+  
+ ---
+public  void withoutIteration(){
+String input = "Ayogya";
+ char toFind ='A';
+ input = input.toLowerCase();
+ String charToFind=  Character.toString(toFind).toLowerCase();
+ int actualLength = input.length();
+ Sysout(actualLength);
+ 
+ input = input.replace(charToFind, "");
+ int lengthAfterReplace = input.length();
+  Sysout(lengthAfterReplace);
+  Sysout(actualLength  -  lengthAfterReplace);
+
+

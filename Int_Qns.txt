@@ -1,0 +1,119 @@
+
+Suppose we have Orders and Customers tables. 
+Orders includes Order_ID, Customer_ID, and Order_Amount, while Customers
+ includes Customer_ID, Customer_Name, and City. Write a SQL query to find the 
+cities which have customers who have placed more than 10 orders with a total 
+Order_Amount of more than $10,000.
+
+Given an 'Employees' table with columns: 
+Emp_id, Name, Salary, and Dept, please 
+write a SQL query to find and list the departments that have more than 100 employees
+
+Select * table
+From Employees Emp_id NameSalary_Dept
+where departments >=100 employees
+-----------------------------------------------------------
+Agile ceremonies
+Sprint backlog
+Product backlog
+retrospective
+agile methodology
+Api testing & web testing
+Response codes you aware about it
+webservices & api testing
+primary key and foreign key
+test plan
+stlc
+Entry and exit criteria
+Scrum
+Sprint planning
+verifi& validation
+
+----------
+xpath and dynamic xpath diff
+reading the excel file via selenium
+Pagefactory vs pom 
+------------
+negative test cases
+how to debug the line of code is a issue in framework
+how do u debug the line of code is a issue in framework
+--------------------------------
+Root cause analysis for banking application issue
+swapping the values by a=10, b=20
+test senarios for mobile application
+rest api and soap api differences
+about my project , selenium usage in project
+types of environment
+aws, kubernets, docker
+--------------------------------------------
+user story vs brd
+test case
+critical challenge in career and overcome 
+critical bug u faced
+--------------
+excel sheet to store 10 users
+get the title
+string reverse program
+sql select name and salary of the person whose name starts with A in employes table
+>Select name, salary From employees where name Like 'A%';
+After softassertion ,AssertAll
+Negative test cases for login page
+which is top priority in annotation
+if both priority has 0 means which will consider first
+to disable the test
+what are all used in Extent reports
+hashmap , get the key and value , all key and value
+public static void main - other
+-----------
+list of anchor tag - links
+security check test scenario redirecting to another link in a mail how to check
+the link/error
+link brokens- how to find other than get title method
+Headers -uses and 
+
+employees
+sl no
+salary
+name
+employee id
+etc
+person details who has the highest salary
+
+Select  * from employees Where name Has MAX COUNT(Salary)
+Hover over a message to pin it
+keep
+
+bookeeapp.com
+
+>Select max(salary) from employees;
+
+>select * From Employees
+where salary = (select max(salary) from employees);
+----------------------------
+lowpriority and high severity
+primary key and unique key
+what would happen in the backend once google.co.in call 
+daily basis what u do
+----------------------
+Automating the test cases
+building the framework
+---
+POM design pattern
+xpath and css path difference
+Selenium limitations
+regression & system testing
+200, 405, 204
+truncate, alter, delete, insert, drop
+priority, severity - which is more important
+daily basis
+azure, ci/cd 
+-------------------
+daily basis
+short term goal and long term
+why ur leaving 
+any conflict b/n employee
+before 1 hr launch issue
+two table join- we use concat
+crtical project launched in career
+unix
+when will automate once requirement ready- once stable

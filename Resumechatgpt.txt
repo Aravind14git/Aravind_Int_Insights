@@ -1,0 +1,42 @@
+https://jobs.comcast.com/job/chennai/sdet-engineer-3/45483/68268197040
+https://jobs.comcast.com/job/chennai/sdet-engineer-3/45483/66885379808
+https://jobs.comcast.com/job/chennai/sdet-engineer-3-bus-f0187/45483/66229932624
+https://jobs.comcast.com/job/chennai/sdet-engineer-3-bus-f0186/45483/66229933280
+https://jobs.comcast.com/job/chennai/engineer-2-engineering-operations/45483/64061392176
+https://jobs.comcast.com/job/chennai/quality-and-automation-engineer-3/45483/58230440960
+
+kisslfow:
+Technical Skills
+Performance Testing Tools: JMeter, Load Runner, NeoLoad, Load Ninja, Web Load, Kobitan
+Programming Languages: Groovy, Java, JavaScript
+Monitoring Tools: Sumo Logic, similar infra/log monitoring tools
+Protocols & Samplers: HTTPs, FTP, JDBC, TestNG
+Test Automation: Jenkins, TeamCity, TestNG
+Database: SQL, data set parameterization
+Containers & Orchestration: Docker, Kubernetes, Clusters
+Agile Methodologies: Agile, Kanban
+Professional Experience
+Quality Assurance Engineer (QAE)
+[Company Name] – [Location]
+[Start Date] – Present
+
+Lead the performance testing efforts for SaaS and multi-tenant architecture products, ensuring optimal system performance and reliability.
+Utilized performance testing tools like JMeter and Load Runner to simulate high-load scenarios, identify bottlenecks, and optimize system performance.
+Collaborated with development teams to define performance acceptance criteria, design test plans, and execute performance tests.
+Diagnosed and resolved complex performance issues, working closely with infrastructure teams to fine-tune system performance.
+Created and presented detailed performance metrics and reports to stakeholders, highlighting key findings and recommendations for improvement.
+Managed test data and configurations, ensuring consistency across various test environments.
+Leveraged Sumo Logic and other monitoring tools to track system performance and identify potential issues in real-time.
+Automated performance test suites and integrated them into the CI/CD pipeline using Jenkins, ensuring continuous performance validation.
+Actively participated in Agile and Kanban methodologies, contributing to sprint planning, daily stand-ups, and retrospectives.
+
+
+------------------------\
+Involved & Hands on experience with both white box and black box testing
+
+
+Led the development and execution of manual and automated test scripts, utilities, and data sets to ensure comprehensive test coverage.
+Implemented quality management methods to support defect-free software development, meeting both client and business partner needs.
+Collaborated closely with development teams in an agile environment, ensuring alignment with application development methodologies.
+Wrote complex SQL queries for data validation and troubleshooting, supporting the integrity of primary database engines.
+Developed and maintained test scripts for usability testing, evaluating total system performance, reliability, scalability, and security.

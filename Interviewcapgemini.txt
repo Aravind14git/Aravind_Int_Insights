@@ -1,0 +1,92 @@
+execute.executesScript("document.getElementsByName('q')[0].value='Duckling'","")
+"arguments[0].value="Duck
+string url="";
+
+("window.location=\'"+url+"\' ")
+window.location=\'"+url+"\' "
+
+
+
+
+
+
+
+
+public class Test { 
+
+    public void main(String[] args) {
+
+        int x = 10*20-20; 
+
+        System.out.println(x); 
+
+    }
+
+} op- 180
+
+//*[contains(text(),'Redmi A2')]
+
+
+//*[contains(text(),'Redmi A2 (Sea Green, 2GB RAM, 64GB Storage)')]
+
+	
+
+public class Test {
+
+	public static void main(String[] args) {
+
+		String s1 = "abc";
+
+		String s2 = "abc";
+
+		System.out.println("s1 == s2 is:" + s1 == s2);
+
+	}
+
+}
+---
+	String x = "abc";
+
+			String y = "abc";
+
+			x.concat(y);
+
+			System.out.print(x.concat(y));
+
+
+abcabc
+
+public class ScrollDown{
+
+public static void main(String args[]){
+
+driver initial
+
+Javascri
+
+Robot.keyPress(KeyEvent.vk_PageDown)
+
+
+public class ScrollDown{
+
+public static void main(String args[]){
+
+driver initial
+
+Javascri
+
+Robot robot = new Robot();
+robot.keyPress(KeyEvent.VK_Page_Down);
+
+dynamic tables - row and column change aagum how do approach
+chrome driver pathi
+xpath
+in your project usage
+Rerun failed test case and take screenshot at any time
+selenium 3 or 4
+testNg can we use priority -1
+
+
+
+
+

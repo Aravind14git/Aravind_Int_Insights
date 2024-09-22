@@ -1,0 +1,24 @@
+Hi  Good Afternoon
+
+Hope this message finds you well,
+I am Aravind from Last Mile QS team based out of Chennai, i just saw the QAT opening which your team posted on the job finders. I am actually interested in the loop, please revert back if my skill sets matches the requirement.
+JD: 
+https://www.amazon.jobs/en/internal/jobs/2634667/quality-assurance-technician-in-payments-use-cases-tech
+About me:
+I grew up within the Last Mile space from L2 to L3  and having a overall experience of 5.6 years into Mobile and Web Testing (includes both Manual & Automation).
+Professional Summary:
+In Manual, I worked on test case execution, bug logging, new feature testing, test case writing, 
+synced up with multiple stakeholders relating to the project sign off, handled triages etc.
+Individually owned and signed off five of the Rabbit and Safety app features from BRD stage. 
+The features include Hazard Collections, DVIC, VSA, Safeguard
+speeding & Meal breaks and Work hour Enforcement
+Have good exposure on identifying test scenarios, creating test cases for most of the Rabbit and safety app features.
+Have driven feature triages and tracked bugs to closure.
+Good exposure on defect logging tools such as SIM & JIRA.
+
+In Automation, I have hands-on experience in web application testing Selenium using Java which involves automating web pages with POM framework.
+Have good exposure on identifying locators for Web Application elements.
+
+
+Skill Set:
+Manual Testing, Mobile(Android & iOS),Automation testing- Web Automation, Selenium WebDriver, Selenium Locators, Maven, TestNg, Jenkins, JIRA, SIM, Regression, Retesting, Smoke, Sanity,Test Plan, Performance & Memory etc

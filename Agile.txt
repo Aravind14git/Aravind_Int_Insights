@@ -1,0 +1,97 @@
+Topic 1:
+Types of sdlc
+waterfall
+spiral
+v model
+win win
+evolutionary prototyping
+agile
+-09
+
+topic 2:
+Req list
+Product owner(mutiple req)->Product Backlog-->
+Team-->
+Sprint planning meeting(collect from that 5 req)-->
+Sprint backlog(Tasks)
+Standup/scrum meeting(scrum master will conduct)
+
+Agile ceremenio: 
+Below will happnes for the created prodcut
+Sprint review - about the prodcut
+Sprint retrospective-Team perform analysis
+
+UX diag:
+Product backlog->sprint planning->Sprint backlog->Scrum team
+Sprint review- sprint retrospective
+
+Topic 3:
+Product owner:
+Providing the vision of the product to the team
+Managing the product backlog in a clear and transparent way
+Priotrize the backlog items to achieve the best
+Explaining the product backlog in a clear manner to the team
+to help team to make better decisions
+
+Team:
+Product backlog-->shippable item
+Self organised (what to commit and how to commit)
+cross functional (analysis, dev, testing, DB) and structured
+team)
+Team is accountable as a whole(no blame on single person)
+7 to 8 person
+
+Scrum master:(agile, scrum coach)
+Help team to adopt scrum
+Help team to self organise
+Protects the team from outside interference
+Conducts scrum events
+
+Sprint planning :
+is an event in the Scrum framework 
+where the team determines the product backlog items 
+they will work on during that sprint and discusses their initial plan 
+for completing those product backlog items.
+The purpose of sprint planning is to define what can be delivered in the 
+sprint and how that work will be achieved.
+ Sprint planning is done in collaboration with the whole scrum team.
+
+Agile is a project management philosophy that utilizes a core set of
+ values or principles, Scrum is a specific Agile methodology that is
+ used to facilitate a project
+
+webservices & api testing:
+A service available over internet is called webservice.
+API acts as intermediary between two different applications
+
+Risk-based testing:
+Risk-based testing makes use of such risks to prioritize and highlight 
+the right set of tests we have to execute at the right time. 
+It concentrates on testing the functionality that has the biggest impact
+ and likelihood of failure.
+Thus Risk-based testing strategy is especially helpful in Agile methodology,
+ for test analysis, planning, estimation, design, execution, and results reporting.
+------------
+Scrum is a framework for developing and sustaining the complex products.
+It describes a set of meeting, tools, and roles that work in a  concert to help
+teams structure and manage their work.
+Developers(team)
+product owner
+scrum master
+
+--
+
+SOAP is a protocol and REST is a software architectural pattern. 
+There is a lot of misconception in the internet for SOAP vs REST.
+
+SOAP defines XML based message format that web service-enabled applications
+ use to communicate each other over the internet. In order to do that the
+ applications need prior knowledge of the message contract, datatypes, etc..
+
+REST represents the state(as resources) of a server from an URL.It is stateless
+ and clients should not have prior knowledge to interact with server beyond the
+ understanding of hypermedia
+---------
+Primary key: Defines a unique identifier for each row in a table.
+ Unique key: Enforces uniqueness but does not necessarily define a unique identifier. 
+Foreign key: Establishes a relationship between two tables
