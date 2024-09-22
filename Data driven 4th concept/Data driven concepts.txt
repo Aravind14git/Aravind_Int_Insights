@@ -1,0 +1,39 @@
+Concept 1:
+Go to URL:
+check 4 scenarios of login with 1.correct username, pwd
+2.correct username, wrong pwd
+3.wrong username, wrong pwd
+4. wrong username, correct pwd
+Create a project, include sel jar, testNG library
+create a class for each scenarios with @Test
+enter the respective selenium code 
+open a xml file using testNG
+1.Run the pgm from here using one test tag within all the classes and obbserve it
+
+----------------------------------
+Scenario 2:
+From scenarios 1 here:
+-> Data separate from each case by using parameters in testNG
+--> Test count has increased
+
+The username: fdgghgfhgf
+The password: dfgdfg
+
+-------------------------------
+Scenario 3: DAta providers in TestNG
+We use data providers annotation for reducing the codes as well
+-->Run the test case , the data provider attribute collects from return data type and data provided.
+-> Then datas are taken to return data type using data providers annotation
+-> Data should be stored in array to share to TC
+----
+Scenario 4:
+Data providers & Excel using JXL library
+------
+Scenario 5:
+Java & Excel workbook using apache POI
+
+Selenium POM:
+Scenario 2: PageFactory flow
+@findBy annotation - To identify webbElements
+PageFactory.initElements 
+// If we don't use PageFactory.initElements we get null pointer exception
